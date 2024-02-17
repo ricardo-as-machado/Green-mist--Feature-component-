@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "Geistlight";
+    src:
+      local("Geistlight"),
+      url("../fonts/Geist-Light.otf") format("opentype"),
+}
+  
+@font-face {
+    font-family: "Geistbold";
+    src:
+      local("Geistbold"),
+      url("../fonts/Geist-Bold.otf") format("opentype"),
+}
+  
+    body{
+        background-color:#1E1E1E;
+}
+
+.feature-component {
+    background: linear-gradient(319deg, rgba(3,11,6,1) 0%, rgba(17,22,19,1) 35%);
+    -webkit-background-clip: container;
+    -webkit-text-fill-color: transparent;
+    width: 300px;
+    border: 2px solid #1C3023;
+    border-radius: 16px;
+    padding: 50px;
+    margin: 20px;
+
+}
+
+.feature-title {
+    background: linear-gradient(0deg, rgba(192,228,205,1) 0%, rgba(216,254,229,1) 35%);
+    font-family: "Geistbold";
+    font-size: 35;
+    text-align: left;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.feature-description{
+    background: #7EA18A;
+    font-family: "Geistlight";
+    font-size: 16;
+    text-align: center;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
