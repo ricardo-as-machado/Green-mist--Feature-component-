@@ -22,9 +22,26 @@
         background-color:#1E1E1E;
 }
 
-.feature-arrow {
+.feature-bell {
+    width: 80px;
     border: 2px solid #1C3023;
-    border-radius: 5px;
+    border-radius: 18px;
+    padding: 3px;
+}
+
+.inner-glow {
+    border-radius: 50%;
+    height:attr(height);
+    left:attr(left);
+    position:absolute;
+    top:attr(top);
+    width:attr(width);
+    }
+
+.feature-arrow {
+    width: 45px;
+    border: 2px solid #1C3023;
+    border-radius: 15px;
     padding: 5px;
 }
 
